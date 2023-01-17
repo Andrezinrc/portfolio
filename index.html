@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>portfolio</title>
+  
+  <!-- HTML -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Project -->
+  <header class="cabecalho">
+    <h1 class="logo">Dev<span> Andre</span></h1>
+    <nav class="nav-bar">
+        <button class="botao-dark-mode" onclick="darkMode()" id="btn-mode"><p class="boll" id="botao-boll"></p></button>
+      <div class="hamburguer" onclick="animar()" id="btn-menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <ul id="menu" class="menu-mobile">
+        <li class="nav-list"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-list"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-list"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+        <li class="nav-list"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-list"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+      
+      <ul class="menu-desk">
+        <li class="nav-list"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-list"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-list"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+        <li class="nav-list"><a class="nav-link" href="#projetos">Projetos</a></li>
+        <li class="nav-list"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="imagem">
+      <img src="./Img/fundo.jpeg" alt="">
+    </div>
+    <div class="titulo">
+      <h2 class="subtitulo">Bem-vindo</h2> 
+        <h1 class="titulo-principal"> Sou Developer Front-end </h1>
+        <button class="botao-curriculo">Currículo</button><br>
+        <a href="#sobre">v</a>
+    </div>
+    
+    <article id="sobre" class="sobre">
+      <div class="sobre-min">
+        <h2 style="margin-bottom: 40px; font-size: 30px;">Sobre <strong>Min .</strong></h2>
+        <p style="margin-bottom: 40px">Sou um Desenvolvedor Front-end Js júnior. 🚀 Apaixonado por tecnologia, Gosto muito de desafios, estou sempre buscando conhecimento e formas fáceis de deixar o código o mais limpo e organizado possível. 👉 Conhecimento: Html, Css, React JS, Material UI, Chakra UI, Git e Github. 📚Atualmente estou buscando adquirir mais conhecimento na área, para me atualizar como um bom programador front-end.</p>
+        <img class="img-perfil"src="./Img/Eu.jpeg" alt="">
+        
+        <h1 style="font-size: 40px; color: darkorchid">Olá! Sou André Moreira</h1>
+      <h3 style="margin-bottom: 20px;">Developer • Designer</h3>
+      <p>Desenvolvedor Front-end,
+ Conhecimento:
+ React Js, Next Js, Html, Css, Material UI, Chakra UI,Git.
+ Atualmente estou em busca da primeira vaga como programador</p>
+      </div>
+      
+    </article>
+    
+    <section id="habilidades" class="Habilidades">
+      <h2 style="font-size: 30px; margin-bottom: 50px; text-align: center;">Habilidades .</h2>
+      <div class="minhas-habilidades">
+        <div class="habilidade">
+          <h2>Html</h2>
+          <img src="Img/html.png" alt="">
+        </div>
+        <div class="habilidade">
+          <h2>Css</h2>
+          <img src="Img/css.png" alt="">
+        </div>
+        <div class="habilidade">
+          <h2>Javascript</h2>
+          <img src="Img/javascript.png" alt="" />
+        </div>
+        <div class="habilidade">
+          <h2>React</h2>
+          <img src="Img/react.png" alt="" />
+        </div>
+        <div class="habilidade">
+          <h2>Typescript</h2>
+          <img src="Img/typescript.png" alt="" />
+        </div>
+        <div class="habilidade">
+          <h2>GitHub</h2>
+          <div class="habilidade-git">
+            <img src="Img/git.png" alt="" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+  
+    <section id="projetos" class="projetos">
+      <h2 style="text-align: center;margin-bottom: 50px; font-size: 30px;">Projetos .</h2>
+      <div class="container-projeto">
+        <div class="projeto">
+          <h2>lorem lorem</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto excepturi aliquam!</p>
+          <a href="">Visualizar Projeto</a>
+        </div>
+        
+        <div class="projeto">
+          <h2>lorem lorem</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto excepturi aliquam!</p>
+          <a href="">Visualizar Projeto</a>
+
+        </div>
+        
+        <div class="projeto">
+          <h2>lorem lorem</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto excepturi aliquam!</p>
+          <a href="">Visualizar Projeto</a>
+          
+        </div>
+      </div>
+    </section>
+    <div style="margin-bottom: 50px;" class="repositorio">
+      <a style="color: darkorchid;"href="">Repositórios no Github</a>
+    </div>
+  </main>
+  
+  <footer id="contato" class="contatos">
+    <h2 style="font-size: 30px; margin-bottom: 50px; text-align: center;">Contato .</h2>
+    <div class="meus-contatos">
+      <div class="contato">
+        <h2>Email</h2>
+        <img src="Img/gmail.png" alt="" />
+      </div>
+      <div class="contato">
+        <h2>WhatsApp</h2>
+        <img src="Img/whats.png" alt="" />
+      </div>
+      <div class="contato">
+        <h2>GitHub</h2>
+        <img src="Img/git.png" alt="" />
+      </div>
+      <div class="contato">
+        <h2>Instagram</h2>
+        <img src="Img/insta.png" alt="">
+      </div>
+    </div>
+    <div class="direito">
+      <p>Todos os direitos reservados</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
