@@ -431,8 +431,8 @@ body {
   }
   
   .habilidade img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   
   .projetos{
@@ -448,6 +448,42 @@ body {
   
   .projeto a{
     z-index: -1;
+  }
+  
+  .contato{
+    font-size: 13px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .contato h2{
+    font-size: 14px;
+  }
+  
+  .contato:hover{
+    background-color: darkmagenta;
+  }
+  
+  .contato-gmail{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .contato-whats{
+    position: relative;
+    top: 128px;
+    left: 0;
+  }
+  
+  .contato-git{
+    position: relative;
+    top: 128px;
+  }
+  
+  .contato-insta{
+    position: relative;
+    top: 120px;
   }
 }
 
