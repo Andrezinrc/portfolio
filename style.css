@@ -286,7 +286,7 @@ body {
     color: black;
     list-style: none;
     text-align: center;
-    z-index: 10;
+    z-index: auto;
   }
   
   .menu-mobile a{
@@ -462,8 +462,12 @@ body {
     font-size: 13px;
     width: 100px;
     height: 100px;
-    z-index: -1;
   }
+  
+  .contato:hover{
+    background-color: darkmagenta;
+  }
+  
   
   .contato h2{
     font-size: 14px;
