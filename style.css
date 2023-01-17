@@ -458,10 +458,15 @@ body {
     z-index: -1;
   }
   
+  .projeto a:hover{
+    color: red;
+  }
+  
   .contato{
     font-size: 13px;
     width: 100px;
     height: 100px;
+    box-shadow: 4px 4px 4px darkmagenta;
   }
   
   .contato:hover{
