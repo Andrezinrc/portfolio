@@ -109,9 +109,9 @@ body {
 .botao-curriculo{
   width: 150px;
   height: 35px;
-  border: 1px solid white;
   border-radius: 20px;
-  background-color: var(--color-transparent);
+  border: none;
+  background-image: -webkit-linear-gradient(left, #2F3466, #4A2364);
   color: white;
   position: relative;
   top: -30px;
@@ -246,7 +246,7 @@ body {
   }
   
 .contato{
-  width: 10px;
+  width: 100px;
   height: 100px;
   background-color: darkviolet;
   border-radius: 50%;
@@ -259,14 +259,27 @@ body {
 .contato img{
   width: 40px;
   height: 40px;
+  position: relative;
+  top: 30px;
 }
 
-.contato h2{
-  font-size: 20px;
-  margin-bottom: 10px;
-  position: relative;
-  top: -25px;
-}
+ .contato h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 50px;
+  }
+  
+  .contato p{
+    position: relative;
+    top: 55px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 11px;
+    color: darkgray;
+  }
+  
+
 
 .meus-contatos{
   display: flex;
@@ -421,8 +434,8 @@ body {
   }
    
   .botao-curriculo{
-    width: 100px;
-    height: 25px;
+    width: 150px;
+    height: 30px;
     position: relative;
     top: 50px;
     z-index: 1;
@@ -488,8 +501,8 @@ body {
   
   .contato{
     font-size: 13px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   
   .contato:hover{
@@ -499,28 +512,43 @@ body {
   
   .contato h2{
     font-size: 14px;
+    position: relative;
+    top: 50px;
+  }
+  
+  .contato p{
+    position: relative;
+    top: 55px;
+    text-align: center;
+    white-space: nowrap;
+    color: darkgray;
   }
   
   .contato-gmail{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    left: 32%;
+    top: -80px;
   }
   
   .contato-whats{
     position: relative;
-    top: 128px;
-    left: 0;
+    top: 80px;
+    left: -114px;
   }
   
   .contato-git{
     position: relative;
-    top: 128px;
+    top: 80px;
   }
   
   .contato-insta{
     position: relative;
     top: 120px;
+  }
+  
+  .contato img{
+    position: relative;
+    top: 20px;
   }
 }
 
