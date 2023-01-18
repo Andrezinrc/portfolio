@@ -217,21 +217,28 @@ body {
 }
 
 .habilidade{
+  width: 100px;
+  height: 110px;
   text-align: center;
   border: 1px solid darkviolet;
   padding: 5px;
   border-radius: 10px;
 }
 
+.habilidade h2{
+  font-size: 15px;
+}
+
 .habilidade-git{
-  width: 100px;
+  width: 90px;
   background-color: white;
   border-radius: 10px;
+  text-align: center;
 }
 
  .habilidade img{
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 59px;
   }
   
 .contato{
@@ -447,6 +454,10 @@ body {
     margin-bottom: 20px;
   }
   
+  .habilidade h2{
+    font-size: 15px;
+  }
+
   .projetos{
     padding: 100px 50px;
   }
