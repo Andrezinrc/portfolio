@@ -220,6 +220,7 @@ body {
   text-align: center;
   border: 1px solid darkviolet;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .habilidade-git{
