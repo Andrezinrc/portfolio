@@ -246,10 +246,10 @@ body {
   }
   
 .contato{
-  width: 150px;
+  width: 10px;
   height: 100px;
   background-color: darkviolet;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 .contato:hover{
@@ -264,6 +264,8 @@ body {
 .contato h2{
   font-size: 20px;
   margin-bottom: 10px;
+  position: relative;
+  top: -25px;
 }
 
 .meus-contatos{
