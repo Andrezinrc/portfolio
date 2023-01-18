@@ -231,14 +231,17 @@ body {
 
 .habilidade-git{
   width: 90px;
-  background-color: white;
-  border-radius: 10px;
   text-align: center;
 }
 
  .habilidade img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  
+  .habilidade-git img{
+    background-color: white;
   }
   
 .contato{
