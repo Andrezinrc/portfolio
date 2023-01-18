@@ -218,6 +218,8 @@ body {
 
 .habilidade{
   text-align: center;
+  border: 1px solid darkviolet;
+  padding: 5px;
 }
 
 .habilidade-git{
@@ -226,6 +228,11 @@ body {
   border-radius: 10px;
 }
 
+ .habilidade img{
+    width: 90px;
+    height: 90px;
+  }
+  
 .contato{
   width: 150px;
   height: 100px;
@@ -437,11 +444,6 @@ body {
     height: 170px;
     border-radius: 50%;
     margin-bottom: 20px;
-  }
-  
-  .habilidade img{
-    width: 90px;
-    height: 90px;
   }
   
   .projetos{
