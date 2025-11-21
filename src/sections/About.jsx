@@ -21,12 +21,12 @@ function About() {
 
       <div>
         <p>
-          Também curto explorar <strong>cybersecurity</strong> com <strong>C</strong>, pra entender melhor a computação por trás dos sistemas.
+          Também curto explorar cybersecurity, pra entender melhor a computação por trás dos sistemas.
         </p>
       </div>
       
       <div className="about-button-container">
-        <a className="about-button" href="#projects">Ver Projetos</a>
+        <a className="about-button" href="https://andrezin-blog.vercel.app/">Ler Blog</a>
       </div>
     </section>
   );

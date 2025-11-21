@@ -22,6 +22,9 @@ function Hero() {
           <a href="https://www.instagram.com/andrezin.dev" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
+          <a href="https://andrezin-blog.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <i className="fas fa-blog"></i>
+          </a>
         </div>
       </div>
     </div>
