@@ -5,7 +5,7 @@ import styles from "./Hero.module.css";
 function Hero() {
 
     return (
-        <section className={styles.hero} id="#home">
+        <section className={styles.hero} id="home">
             <div className={styles.heroLeft}>
                 <h1>André Moreira</h1>
                 <p>Desenvolvedor FullStack</p>
