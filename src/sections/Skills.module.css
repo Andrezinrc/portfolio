@@ -1,0 +1,105 @@
+.skills {
+    padding: 80px 20px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .title {
+    font-size: 22pt;
+    margin-bottom: 30px;
+}
+
+.skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skillItem,
+.skillItem img {
+    width: 90px;
+    height: 90px;
+}
+
+.skills {
+  padding: 80px 20px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .title {
+  font-size: 22pt;
+  margin-bottom: 30px;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.skillItem {
+  position: relative;
+  width: 85px;
+  height: 85px;
+}
+
+.skillItem img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.skillName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #333;
+}
+
+.skillItem:hover img {
+  opacity: 0;
+}
+
+.skillItem:hover .skillName {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .skills { padding: 70px 20px; }
+    .skills .title { font-size: 20pt; }
+    .skillsList { gap: 15px; }
+    
+    .skillItem {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skills { padding: 60px 15px; }
+    .skills .title { font-size: 18pt; }
+    .skillsList { gap: 10px; }
+
+    .skillItem {
+        width: 60px;
+        height: 60px;
+    }
+}

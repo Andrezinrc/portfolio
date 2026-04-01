@@ -1,0 +1,83 @@
+.hero {
+    padding: 120px 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    color: #fff;
+}
+
+.heroLeft {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.heroLeft h1 {
+    font-size: 48px;
+}
+
+.heroLeft p {
+    font-size: 18px;
+}
+
+.heroLeft .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.heroLeft .social a {
+    color: #fff;
+    font-size: 22px;
+}
+
+.heroLeft .social a:hover {
+    transform: scale(1.1);
+}
+
+.cta { margin-top: 30px; }
+.ctaButton {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.ctaButton:hover {
+    background: linear-gradient(135deg, #003d80, #0056b3);
+}
+
+.heroRight {}
+
+@media screen and (max-width: 768px) {
+    .hero { padding: 90px 20px; }
+
+    .heroLeft {
+        padding: 40px 0px;
+        gap: 15px;
+    }
+
+    .heroLeft h1 { font-size: 40px; }
+    .heroLeft p { font-size: 16px; }
+    .heroLeft .social { gap: 12px; }
+    .heroLeft .social a { font-size: 18px; }
+}
+
+@media screen and (max-width: 400px) {
+    .heroLeft h1 { font-size: 35px; }
+    .heroLeft p { font-size: 14px; }
+    .heroLeft .social { font-size: 16px; }
+    
+    .ctaButton { font-size: 14px; }
+}

@@ -1,0 +1,73 @@
+.footer {
+    padding: 40px 20px;
+    width: 100%;
+    background: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.info p {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+.footerContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.menuContent, .social {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menuContent h3, .social h3 {
+   color: #fff;
+   font-size: 18px;
+}
+
+.menu { list-style: none; }
+
+.menu, .socialLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu a, .socialLinks a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu  a:hover, .socialLinks a:hover {
+    color: #fff;
+}
+
+.dev {
+    color: #ccc;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .menuContent, .social { gap: 10px; }
+    .menuContent h3, .social h3 { font-size: 18px; }
+    .menu a, .socialLinks a { font-size: 14px; }
+}
