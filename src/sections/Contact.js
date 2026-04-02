@@ -61,7 +61,7 @@ function Contact()
             <div className={styles.contactContent}>
                 <form onSubmit={sendEmail}>
                     <div className={styles.inputEmail}>
-                        <input type="email" value={email} onChange={handleEmailChange} placeholder="Seu e-mail" />
+                        <input type="email" name="email" value={email} onChange={handleEmailChange} placeholder="Seu e-mail" />
                     </div>
                     <button type="submit" >Vamos conversar</button>
                     {success && <p className={styles.success}>{success}</p>}
