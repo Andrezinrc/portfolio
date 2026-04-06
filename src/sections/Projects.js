@@ -18,6 +18,18 @@ function Projects()
                     </div>
                     <a href="https://github.com/Andrezinrc/url-shortener-api">Ver no GitHub</a>
                 </div>
+
+                <div className={styles.projectItem}>
+                    <img src="/assets/images/projects/my_store.png" alt="catálogo digital" />
+                    <h2>Catálogo Digital</h2>
+                    <p>Catálogo online com busca, filtros, carrinho e integração com WhatsApp</p>
+                    <div className={styles.technologies}>
+                        <span className={styles.tech}>React</span>
+                        <span className={styles.tech}>Vite</span>
+                        <span className={styles.tech}>CSS Modules</span>
+                    </div>
+                    <a href="https://my-store-dun-phi.vercel.app/">Ver projeto</a>
+                </div>
             </div>
         </section>
     );
