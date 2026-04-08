@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import styles from "./Hero.module.css";
 
 function Hero() {
@@ -10,6 +10,9 @@ function Hero() {
                 <h1>André Moreira</h1>
                 <p>Desenvolvedor FullStack</p>
                 <div className={styles.social}>
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-moreira-940886233/">
+                        <FaLinkedin />
+                    </a>
                     <a href="https://github.com/Andrezinrc">
                         <FaGithub />
                     </a>
