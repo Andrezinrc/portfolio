@@ -30,6 +30,18 @@ function Projects()
                     </div>
                     <a href="https://my-store-dun-phi.vercel.app/">Ver projeto</a>
                 </div>
+
+                <div className={styles.projectItem}>
+                    <img src="/assets/images/projects/fakeOS.png" alt="fakeOS emulator" />
+                    <h2>fakeOS</h2>
+                    <p>Emulador de CPU e Micro-Kernel em C com debugger integrado, suporte a execução passo-a-passo e monitoramento de syscalls.</p>
+                    <div className={styles.technologies}>
+                        <span className={styles.tech}>C</span>
+                        <span className={styles.tech}>Makefile</span>
+                        <span className={styles.tech}>Low-Level</span>
+                    </div>
+                    <a href="https://github.com/Andrezinrc/fakeOS">Ver no GitHub</a>
+                </div>
             </div>
         </section>
     );
