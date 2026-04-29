@@ -8,6 +8,10 @@ function Skills()
             <h2 className={styles.title}>Minhas Habilidades</h2>
             <div className={styles.skillsList}>
                 <div className={styles.skillItem}>
+                    <img src="/assets/images/skills/c.png" alt="C" />
+                    <div className={styles.skillName}>C</div>
+                </div>
+                <div className={styles.skillItem}>
                     <img src="/assets/images/skills/javascript.png" alt="JavaScript" />
                     <div className={styles.skillName}>JavaScript</div>
                 </div>
@@ -26,14 +30,6 @@ function Skills()
                 <div className={styles.skillItem}>
                     <img src="/assets/images/skills/node.png" alt="Node" />
                     <div className={styles.skillName}>Node.js</div>
-                </div>
-                <div className={styles.skillItem}>
-                    <img src="/assets/images/skills/java.png" alt="Java" />
-                    <div className={styles.skillName}>Java</div>
-                </div>
-                <div className={styles.skillItem}>
-                    <img src="/assets/images/skills/springboot.png" alt="Spring Boot" />
-                    <div className={styles.skillName}>Spring Boot</div>
                 </div>
                 <div className={styles.skillItem}>
                     <img src="/assets/images/skills/postgresql.png" alt="PostgreSQL" />
