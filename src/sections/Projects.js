@@ -10,11 +10,10 @@ function Projects()
                 <div className={styles.projectItem}>
                     <img src="/assets/images/projects/chip8-emulator.jpg" alt="Mychip8 Emulator" />
                     <h2>Mychip8 Emulator</h2>
-                    <p>Interpretador da arquitetura CHIP-8 escrito em C puro, utilizando a biblioteca SDL2 para renderização gráfica e controle de input.</p>
+                    <p>Interpretador de CHIP-8 escrito em C com interface gráfica em SDL2</p>
                     <div className={styles.technologies}>
                         <span className={styles.tech}>C</span>
                         <span className={styles.tech}>SDL2</span>
-                        <span className={styles.tech}>Linux</span>
                     </div>
                     <a href="https://github.com/Andrezinrc/mychip8">Ver no GitHub</a>
                 </div>
