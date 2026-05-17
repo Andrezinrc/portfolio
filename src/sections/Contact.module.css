@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #dadada;
 }
 
 .contact .title {
@@ -50,11 +51,6 @@ form {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    outline: none;
-}
-
-.inputEmail input:focus {
-    border-color: #007BFF;
     outline: none;
 }
 

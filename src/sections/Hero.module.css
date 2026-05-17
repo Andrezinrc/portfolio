@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: space-around;
     background: linear-gradient(135deg, #0056b3, #003d80);
+    border-bottom: 2px solid #dadada;
     color: #fff;
 }
 
