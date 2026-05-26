@@ -5,7 +5,7 @@ function Footer()
 {
     return (
         <footer className={styles.footer}>
-            <p className={styles.dev}>&copy; 2026 - Desenvolvido por André Moreira</p>
+            <p className={styles.dev}>&copy; 2026 - André Moreira</p>
         </footer>
     );
 }

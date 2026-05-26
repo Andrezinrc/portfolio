@@ -8,7 +8,7 @@ function Hero() {
         <section className={styles.hero} id="home">
             <div className={styles.heroLeft}>
                 <h1>André Moreira</h1>
-                <p>Desenvolvedor FullStack</p>
+                <p>FullStack Developer</p>
                 <div className={styles.social}>
                     <a href="https://www.linkedin.com/in/andr%C3%A9-moreira-940886233/">
                         <FaLinkedin />
@@ -19,9 +19,6 @@ function Hero() {
                     <a href="https://www.instagram.com/andremoreira.dev/">
                         <FaInstagram />
                     </a>
-                </div>
-                <div className={styles.cta}>
-                    <a href="#projects" className={styles.ctaButton}>Veja meus projetos</a>
                 </div>
             </div>
             <div className={styles.heroRight}>

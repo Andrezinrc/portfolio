@@ -1,11 +1,10 @@
 .footer {
     padding: 20px;
     width: 100%;
-    background: #0f0f0f;
+    background: #fff;
 }
 
 .dev {
-    color: #ccc;
+    color: #111;
     font-size: 14px;
-    text-align: center;
 }

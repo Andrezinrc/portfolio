@@ -3,7 +3,6 @@ import Hero from "../../sections/Hero";
 import About from "../../sections/About";
 import Skills from "../../sections/Skills";
 import Projects from "../../sections/Projects";
-import Contact from "../../sections/Contact";
 import styles from "./Content.module.css";
 
 function Content()
@@ -14,7 +13,6 @@ function Content()
             <About />
             <Skills />
             <Projects />
-            <Contact />
         </main>
     );
 }
