@@ -19,6 +19,17 @@ function Projects()
                 </div>
 
                 <div className={styles.projectItem}>
+                    <img src="/assets/images/projects/chip8-compiler.jpg" alt="CHIP-8 Compiler" />
+                    <h2>CHIP-8 Compiler</h2>
+                    <p>Compilador e montador que traduz mnemônicos em Assembly para os opcodes binários do CHIP-8</p>
+                    <div className={styles.technologies}>
+                        <span className={styles.tech}>Assembly</span>
+                        <span className={styles.tech}>C</span>
+                    </div>
+                    <a href="https://github.com/Andrezinrc/c8c">Ver no GitHub</a>
+                </div>
+
+                <div className={styles.projectItem}>
                     <img src="/assets/images/projects/url-shortener.png" alt="url shortener" />
                     <h2>Encurtador de URL</h2>
                     <p>Aplicação web para encurtar links com geração rápida e gerenciamento de URLs</p>
@@ -39,7 +50,7 @@ function Projects()
                         <span className={styles.tech}>Vite</span>
                         <span className={styles.tech}>CSS Modules</span>
                     </div>
-                    <a href="https://my-store-dun-phi.vercel.app/">Ver projeto</a>
+                    <a href="https://github/Andrezinrc/mystore">Ver no GitHub</a>
                 </div>
             </div>
         </section>
