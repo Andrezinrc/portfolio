@@ -7,7 +7,13 @@ function About()
         <section className={styles.about} id="about">
             <h2 className={styles.title}>Sobre Mim</h2>
             <div className={styles.aboutContent}>
-                <p>Como desenvolvedor fullstack, passo boa parte do meu tempo construindo aplicações web, mas minha verdadeira curiosidade reside em entender o que acontece a alguns níveis de abstração abaixo. Seja contribuindo com projetos open-source ou escrevendo código em C, busco sempre desmistificar como os sistemas operam. Acredito que, ao entender os fundamentos, conseguimos tomar decisões de arquitetura muito mais conscientes e eficientes no dia a dia.</p>
+                <p>
+                    Sou um desenvolvedor focado em Engenharia de Software e Sistemas, transitando 
+                    entre a construção de aplicações web escaláveis no ecossistema Full-Stack e o 
+                    desenvolvimento de baixo nível. Minha paixão está onde o software encontra o hardware. 
+                    Acredito que dominar o que acontece abaixo das camadas de abstração é o único caminho 
+                    para construir arquiteturas eficientes, transformando conceitos complexos de computação em software de alta performance de verdade.
+                </p>
             </div>
         </section>
     );
