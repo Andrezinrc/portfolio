@@ -8,28 +8,6 @@ function Projects()
             <h2 className={styles.title}>Projetos</h2>
             <div className={styles.projectsList}>
                 <div className={styles.projectItem}>
-                    <img src="/assets/images/projects/chip8-emulator.jpg" alt="Mychip8 Emulator" />
-                    <h2>Mychip8 Emulator</h2>
-                    <p>Interpretador de CHIP-8 escrito em C com interface gráfica em SDL2</p>
-                    <div className={styles.technologies}>
-                        <span className={styles.tech}>C</span>
-                        <span className={styles.tech}>SDL2</span>
-                    </div>
-                    <a href="https://github.com/Andrezinrc/mychip8">Ver no GitHub</a>
-                </div>
-
-                <div className={styles.projectItem}>
-                    <img src="/assets/images/projects/chip8-compiler.jpg" alt="CHIP-8 Compiler" />
-                    <h2>CHIP-8 Compiler</h2>
-                    <p>Compilador que traduz mnemônicos em Assembly para opcodes binários do CHIP-8</p>
-                    <div className={styles.technologies}>
-                        <span className={styles.tech}>C</span>
-                        <span className={styles.tech}>Assembly</span>
-                    </div>
-                    <a href="https://github.com/Andrezinrc/c8c">Ver no GitHub</a>
-                </div>
-
-                <div className={styles.projectItem}>
                     <img src="/assets/images/projects/url-shortener.png" alt="url shortener" />
                     <h2>Encurtador de URL</h2>
                     <p>Aplicação web para encurtar links com geração rápida e gerenciamento de URLs</p>
