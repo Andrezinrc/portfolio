@@ -30,6 +30,18 @@ function Projects()
                     </div>
                     <a href="https://github.com/Andrezinrc/mystore">Ver no GitHub</a>
                 </div>
+
+                <div className={styles.projectItem}>
+                    <img src="/assets/images/projects/chip8-emulator.jpg" alt="chip-8 emulator" />
+                    <h2>CHIP-8 Emulator</h2>
+                    <p>Um emulador feito em JavaScript para rodar direto no navegador</p>
+                    <div className={styles.technologies}>
+                        <span className={styles.tech}>HTML</span>
+                        <span className={styles.tech}>CSS</span>
+                        <span className={styles.tech}>JS</span>
+                    </div>
+                    <a href="https://github.com/Andrezinrc/mystore">Ver no GitHub</a>
+                </div>
             </div>
         </section>
     );
