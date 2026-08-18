@@ -40,7 +40,7 @@ function Projects()
                         <span className={styles.tech}>CSS</span>
                         <span className={styles.tech}>JS</span>
                     </div>
-                    <a href="https://github.com/Andrezinrc/mystore">Ver no GitHub</a>
+                    <a href="https://github.com/Andrezinrc/chip8Js">Ver no GitHub</a>
                 </div>
             </div>
         </section>
